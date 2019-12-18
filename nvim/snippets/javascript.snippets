@@ -1,0 +1,160 @@
+# -----------------------------------------------
+# Flow control
+# -----------------------------------------------
+
+snippet if "if statement" b!
+if ($1) {
+}
+endsnippet
+
+snippet ifelse "if else statement" b!
+if ($1) {
+} else {
+}
+endsnippet
+
+snippet ret "return statement" w
+return $1
+endsnippet
+
+# -----------------------------------------------
+# Looping
+# -----------------------------------------------
+
+snippet ifor "simple for loop" b!
+for (let i = 0; i < $1; i++) {
+	$2
+}
+endsnippet
+
+snippet mapaf "map with arrow function" w
+map(($1) => {
+	return $2
+})
+endsnippet
+
+snippet reduceaf "reduce with arrow function" w
+reduce((acc, $1) => {
+	return $3
+}, $2)
+endsnippet
+
+snippet filteraf "filter with arrow function" w
+filter(($1) => {
+	return $2
+})
+endsnippet
+
+# -----------------------------------------------
+# Functions
+# -----------------------------------------------
+
+snippet fun "named function" b!
+function $1($2) {
+	$3
+}
+endsnippet
+
+snippet afun "arrow function" w
+($1) => {
+	$2
+}
+endsnippet
+
+snippet cfun "named function assigned to constant" b!
+const $1 = function $2($3) {
+	$4
+}
+endsnippet
+
+snippet cafun "arrow function"
+const $1 = ($2) => {
+	$3
+}
+endsnippet
+
+snippet asfun "async named function" b!
+async function $1($2) {
+	$3
+}
+endsnippet
+
+# -----------------------------------------------
+# Modules
+# -----------------------------------------------
+
+# CommonJS
+snippet creq "require and assign to constant" b!
+const $1 = require('$2')
+endsnippet
+
+snippet modex "JS Module Export" b!
+module.export = $1
+endsnippet
+
+# ES2015 
+snippet imp "import" b!
+import $1 from '$2'
+endsnippet
+
+snippet impdes "import and destructure" b!
+import { $1 } from '$2'
+endsnippet
+
+
+# -----------------------------------------------
+# Other
+# -----------------------------------------------
+
+snippet jsclass "JS Class" b!
+class $1 {
+	constructor() {
+	}
+}
+endsnippet
+
+snippet con "assign to constant" b!
+const $1 = $2
+endsnippet
+
+snippet descon "destructure and assign to constant" b!
+const { $1 } = $2
+endsnippet
+
+snippet cawait "await and assign to constant" b!
+const $1 = await $2
+endsnippet
+
+snippet tag "HTML tag"
+<${1:div}>$2</${1/(\w+).*/$1/}>
+endsnippet
+
+snippet mtag "Multiline HTML tag"
+<${1:div}>
+	$2
+</${1/(\w+).*/$1/}>
+endsnippet
+
+# -----------------------------------------------
+# React
+# -----------------------------------------------
+snippet reactclass "React Class" b
+import React from 'react'
+
+class $1 extends React.Component {
+	state = {}
+
+	render(props) {
+		return (
+			<div>
+				$2
+			</div>
+		)
+	}
+}
+
+$1.defaultProps = {
+}
+
+export default $1
+endsnippet
