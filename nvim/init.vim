@@ -52,10 +52,9 @@ set swapfile
 " Swap directory
 set dir=/home/fcanela/.hidden/neovim/swap//
 
-" Enable backup files
-set backup
-" Swap directory
-set backupdir=/home/fcanela/.hidden/neovim/backup//
+" Disable backups to avoid conflicts with some language servers
+set nobackup
+set nowritebackup
 
 
 " Editing
@@ -80,6 +79,9 @@ set hidden
 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
 
+" Better display for messages
+set cmdheight=2
+
 " Snippets
 " -----------------------------------------------------
 
@@ -91,4 +93,4 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Use the repo snippets
-let g:UltiSnipsSnippetsDir = "~/.dotfiles/nvim/snippets"
+let g:UltiSnipsSnippetDirectories = [$HOME.'/.dotfiles/nvim/snippets']
