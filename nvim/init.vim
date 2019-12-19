@@ -21,6 +21,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Snippets 
 Plug 'SirVer/ultisnips'
 
+" Fuzzy finding
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 
@@ -94,3 +98,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Use the repo snippets
 let g:UltiSnipsSnippetDirectories = [$HOME.'/.dotfiles/nvim/snippets']
+
+" FZF
+" -----------------------------------------------------
+nnoremap <silent> <leader>f :FZF<cr>
