@@ -12,6 +12,7 @@ Plug 'editorconfig/editorconfig-vim'
 " Multiple programming languages support
 Plug 'sheerun/vim-polyglot'
 
+
 " Tracking git changes
 Plug 'airblade/vim-gitgutter'
 
@@ -24,6 +25,9 @@ Plug 'SirVer/ultisnips'
 " Fuzzy finding
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+
+" React styled-components support
+Plug 'styled-components/vim-styled-components'
 
 call plug#end()
 

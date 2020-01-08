@@ -101,6 +101,10 @@ snippet impdes "import and destructure" b!
 import { $1 } from '$2'
 endsnippet
 
+snippet expdef "export default" b
+export default $1
+endsnippet
+
 
 # -----------------------------------------------
 # Other
@@ -144,10 +148,10 @@ import React from 'react'
 class $1 extends React.Component {
 	state = {}
 
-	render(props) {
+	render() {
 		return (
 			<div>
-				$2
+				${2:$1}
 			</div>
 		)
 	}
@@ -158,3 +162,4 @@ $1.defaultProps = {
 
 export default $1
 endsnippet
+
