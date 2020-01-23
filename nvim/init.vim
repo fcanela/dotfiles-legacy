@@ -12,7 +12,6 @@ Plug 'editorconfig/editorconfig-vim'
 " Multiple programming languages support
 Plug 'sheerun/vim-polyglot'
 
-
 " Tracking git changes
 Plug 'airblade/vim-gitgutter'
 
@@ -27,7 +26,12 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " React styled-components support
-Plug 'styled-components/vim-styled-components'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+
+" Distraction-free writting
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 
 call plug#end()
 
@@ -106,3 +110,9 @@ let g:UltiSnipsSnippetDirectories = [$HOME.'/.dotfiles/nvim/snippets']
 " FZF
 " -----------------------------------------------------
 nnoremap <silent> <leader>f :FZF<cr>
+
+" Distraction-free writting
+" -----------------------------------------------------
+" Enable/disable Limelight with Goyo
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
