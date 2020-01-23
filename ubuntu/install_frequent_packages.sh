@@ -11,8 +11,8 @@ PACKAGES=(
   "ranger"                  # File manager with NeoVim integration
   "thefuck"                 # Corrects failed shell commands
   "software-properties-common"
-  "chromium-browser"        # Development browser (only dev extensions)
   "unrar-free"
+  "htop"
 
   # Development
   #----------------------------------------------------------------
@@ -28,18 +28,21 @@ PACKAGES=(
   "howdoi"                  # Searches coding questions
   "zeal"                    # Offline documentation
   "mypaint"                 # Quickly raw diagrams / interfaces / whatever
+  "chromium-browser"        # Development browser (only dev extensions)
 
   # Debugging & audit 
   #----------------------------------------------------------------
   "netcat"
-  "tcptraceroute"
-  "tcpdump"
-  "wireshark"
-  "nmap"
-  "tcpreplay"
-  "dsniff"
-  "aircrack-ng"
-  "reaver"
+  "tcptraceroute"           # Traceroute using TCP instead of ICMP
+  "tcpdump"                 # Simple network sniffer (terminal)
+  "wireshark"               # Powerful network sniffer (w/ GUI)
+  "powertop"                # Power consumption analysis & tuning
+  "iotop"                   # I/O usage analysis
+  "nmap"                    # Open ports & host enumeration
+  "tcpreplay"               # Suite to edit & replay network traffic stored in PCAP files
+  "dsniff"                  # Debugging/hardening (tcpnice/kill) & audit tools 
+  "aircrack-ng"             # Wireless audit toolkit
+  "reaver"                  # Wireless WPS audit tool
 
   # Living in the terminal
   #----------------------------------------------------------------
