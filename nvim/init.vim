@@ -26,7 +26,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " React styled-components support
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+" Disabled because a conflict with vim-polyglot
+" Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 
 " Distraction-free writting
