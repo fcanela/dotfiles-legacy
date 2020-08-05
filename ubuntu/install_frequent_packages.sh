@@ -72,6 +72,7 @@ PACKAGES=(
 
   # Dependencies / Libraries
   #----------------------------------------------------------------
+  "libsqlite3-dev"
 )
 
 sudo apt-get install --yes "${PACKAGES[@]}"

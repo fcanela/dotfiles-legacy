@@ -52,11 +52,13 @@ path=(
   $HOME/bin
   $HOME/.local/bin
   $HOME/workspace/bin
+  $HOME/.ruby/bin
   /home/linuxbrew/.linuxbrew/bin
   $path
 )
 
 export GOPATH=$HOME
+export GEM_HOME=$HOME/.ruby
 
 #
 # Less

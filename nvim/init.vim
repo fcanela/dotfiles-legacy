@@ -50,6 +50,10 @@ set background=dark
 let ayucolor="dark"
 colorscheme ayu
 
+" Transparent background
+au ColorScheme * hi Normal ctermbg=none guibg=none
+
+
 " Numbers at the left side
 set number
 
@@ -85,7 +89,6 @@ set shiftwidth=2
 " This is also a requirement for coc.nvim
 set hidden
 
-
 " coc.nvim
 " -----------------------------------------------------
 
@@ -108,12 +111,16 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " Use the repo snippets
 let g:UltiSnipsSnippetDirectories = [$HOME.'/.dotfiles/nvim/snippets']
 
-" FZF
-" -----------------------------------------------------
-nnoremap <silent> <leader>f :FZF<cr>
-
 " Distraction-free writting
 " -----------------------------------------------------
 " Enable/disable Limelight with Goyo
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
+
+
+" Custom Key Bindings
+" -----------------------------------------------------
+let mapleader = " "
+nnoremap <silent> <leader>f :FZF<cr>
+nnoremap <leader>w :w<cr>
+noremap <leader>e :CocCommand explorer<cr>

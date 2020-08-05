@@ -32,6 +32,7 @@ MODULES=(
   #----------------------------------------------------------------
   "cash-cli"                # Currency conversion
   "iponmap"                 # Show IP on map
+  "mapscii"                 # Ascii map
   "emoj"                    # Search for emojis
 )
 
