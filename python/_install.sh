@@ -8,7 +8,6 @@ APT_PACKAGES=(
 
   # Package manager
   #----------------------------------------------------------------
-  "python-pip"
   "python3-pip"
 
   # Headers / static libs
