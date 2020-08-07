@@ -9,8 +9,6 @@ sudo apt --yes upgrade
 # APT PPAs additions
 #----------------------------------------------------------------
 ./nvim/_apt_source.sh
-./golang/_apt_source.sh
-
 
 # Create default home directory structure
 #----------------------------------------------------------------
