@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo add-apt-repository --yes ppa:neovim-ppa/stable
+echo Skipping NVIM PPA installation until they support 20.04
+# sudo add-apt-repository --yes ppa:neovim-ppa/stable

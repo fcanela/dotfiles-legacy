@@ -11,6 +11,11 @@ sudo apt --yes upgrade
 ./nvim/_apt_source.sh
 ./golang/_apt_source.sh
 
+
+# Create default home directory structure
+#----------------------------------------------------------------
+./ubuntu/configure_directories.sh
+
 # Installations
 #----------------------------------------------------------------
 ./node/_install.sh              # This goes first as the script adds

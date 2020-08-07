@@ -24,10 +24,6 @@ MODULES=(
   #----------------------------------------------------------------
   "commitizen"              # Git commits convention
 
-  # Productivity / Tracking
-  #----------------------------------------------------------------
-  "moro"                    # Time tracker for work
-
   # Other
   #----------------------------------------------------------------
   "cash-cli"                # Currency conversion
