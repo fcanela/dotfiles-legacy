@@ -29,6 +29,7 @@ PACKAGES=(
   "zeal"                    # Offline documentation
   "mypaint"                 # Quickly raw diagrams / interfaces / whatever
   "chromium-browser"        # Development browser (only dev extensions)
+  "direnv"                  # Allows per-directory environment variables
 
   # Debugging & audit 
   #----------------------------------------------------------------
