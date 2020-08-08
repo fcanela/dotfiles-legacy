@@ -49,6 +49,7 @@ path=(
   $HOME/.go/bin
   $HOME/.local/bin
   $HOME/bin
+  /snap/bin
   $path
 )
 
