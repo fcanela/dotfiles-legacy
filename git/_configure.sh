@@ -15,3 +15,6 @@ cat > ~/.gitconfig <<EOL
         email = ${email} 
         name = Francisco Canela
 EOL
+
+echo "[+] Enabling conventional commit messages globally"
+echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc

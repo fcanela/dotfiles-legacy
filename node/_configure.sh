@@ -23,6 +23,7 @@ MODULES=(
   # General development
   #----------------------------------------------------------------
   "commitizen"              # Git commits convention
+  "cz-conventional-changelog"
 
   # Other
   #----------------------------------------------------------------
