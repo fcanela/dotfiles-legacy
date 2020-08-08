@@ -70,6 +70,7 @@ PACKAGES=(
   "libreoffice"             # Productivity suite
   "obs-studio"              # Screen recording / streaming
   "gimp"                    # Image editor
+  "thunderbird"             # Email client
 
   # Dependencies / Libraries
   #----------------------------------------------------------------
