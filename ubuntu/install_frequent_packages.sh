@@ -13,6 +13,7 @@ PACKAGES=(
   "software-properties-common"
   "unrar-free"
   "htop"
+  "neofetch"                # Displays system information
 
   # Development
   #----------------------------------------------------------------
@@ -30,6 +31,7 @@ PACKAGES=(
   "mypaint"                 # Quickly raw diagrams / interfaces / whatever
   "chromium-browser"        # Development browser (only dev extensions)
   "direnv"                  # Allows per-directory environment variables
+  "fonts-firacode"          # My preferred font for programming, with ligatures
 
   # Debugging & audit 
   #----------------------------------------------------------------
