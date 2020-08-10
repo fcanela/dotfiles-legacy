@@ -9,6 +9,7 @@ sudo apt --yes upgrade
 # APT PPAs additions
 #----------------------------------------------------------------
 ./nvim/_apt_source.sh
+./docker/_apt_source.sh
 
 # Create default home directory structure
 #----------------------------------------------------------------
@@ -22,8 +23,9 @@ export NVM_DIR="$HOME/.nvm"
 . $NVM_DIR/nvm.sh              # Required to load NVM in current shell
 nvm use node                    # Required to load stable Node.js in current shell
 ./python/_install.sh
-./nvim/_install.sh
 ./golang/_install.sh
+./nvim/_install.sh
+./docker/_install.sh
 ./prezto/_install.sh
 
 ./git/_configure.sh

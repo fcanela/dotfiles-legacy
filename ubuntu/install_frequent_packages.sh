@@ -14,6 +14,9 @@ PACKAGES=(
   "unrar-free"
   "htop"
   "neofetch"                # Displays system information
+  "apt-transport-https"
+  "ca-certificates"
+  "gnupg-agent"
 
   # Development
   #----------------------------------------------------------------
@@ -24,8 +27,6 @@ PACKAGES=(
   "jq"                      # `sed` for JSON
   "jo"                      # creates JSON from key=value input
   "silversearcher-ag"       # grep-like source code search tool
-  "docker.io"
-  "docker-compose"
   "howdoi"                  # Searches coding questions
   "zeal"                    # Offline documentation
   "mypaint"                 # Quickly raw diagrams / interfaces / whatever
