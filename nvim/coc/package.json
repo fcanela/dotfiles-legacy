@@ -2,6 +2,7 @@
   "dependencies": {
     "coc-css": ">=1.2.2",
     "coc-eslint": ">=1.2.3",
+    "coc-explorer": ">=0.7.26",
     "coc-html": ">=1.2.1",
     "coc-json": ">=1.2.4",
     "coc-prettier": ">=1.1.11",

@@ -17,7 +17,7 @@ curl -fLo ${HOME}/.local/share/nvim/site/autoload/plug.vim --create-dirs https:/
 echo "[+] Installing coc.nvim plugins and language servers"
 echo "-------------------------------"
 mkdir -p ${COC_PATH}
-cp ${NVIM_DOTFILES_PATH}/coc/package.json ${COC_PATH}
+ln -s ${NVIM_DOTFILES_PATH}/coc/package.json ${COC_PATH}
 cd ${COC_PATH}
 npm install --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
 
