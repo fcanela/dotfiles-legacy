@@ -17,6 +17,7 @@ PACKAGES=(
   "apt-transport-https"
   "ca-certificates"
   "gnupg-agent"
+  "unrar"
 
   # Development
   #----------------------------------------------------------------
