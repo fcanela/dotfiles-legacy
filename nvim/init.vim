@@ -11,6 +11,7 @@ Plug 'editorconfig/editorconfig-vim'
 
 " Multiple programming languages support
 Plug 'sheerun/vim-polyglot'
+Plug 'pantharshit00/vim-prisma'
 
 " Tracking git changes
 Plug 'airblade/vim-gitgutter'
