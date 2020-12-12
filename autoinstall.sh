@@ -4,7 +4,9 @@ sudo apt --yes upgrade
 
 # First step as others runners may depend on some of these tools
 #----------------------------------------------------------------
-./ubuntu/install_frequent_packages.sh
+./ubuntu/install_base_frequent_packages.sh
+./ubuntu/install_gui_frequent_packages.sh
+./ubuntu/install_audit_frequent_packages.sh
 
 # APT PPAs additions
 #----------------------------------------------------------------
