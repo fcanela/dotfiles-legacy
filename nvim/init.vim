@@ -30,10 +30,12 @@ Plug 'junegunn/fzf.vim'
 " Disabled because a conflict with vim-polyglot
 " Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
-
 " Distraction-free writting
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+
+" Track activity
+Plug 'ActivityWatch/aw-watcher-vim'
 
 call plug#end()
 
