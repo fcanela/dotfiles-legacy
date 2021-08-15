@@ -1,9 +1,5 @@
 priority -50
 
-###########################################################################
-#                            TextMate Snippets                            #
-###########################################################################
-
 global !p
 def x(snip):
 	if snip.ft.startswith("x"):
@@ -529,6 +525,14 @@ endsnippet
 
 snippet wbr "<wbr>" w
 <wbr>$1</wbr>
+endsnippet
+
+snippet tailwindscdn "TailwindsCSS CDN" w
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+endsnippet
+
+snippet lorem "Lorem Ipsum" w
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla nunc ac molestie bibendum. Nam id bibendum justo. In hendrerit commodo quam, non rhoncus tellus. Phasellus a tristique leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum massa et odio rutrum egestas. In semper finibus ante, at pulvinar eros auctor id. Praesent risus lacus, bibendum et lectus id, scelerisque luctus ante.
 endsnippet
 
 # vim:ft=snippets:

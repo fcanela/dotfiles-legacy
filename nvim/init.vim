@@ -34,8 +34,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
-" Track activity
-Plug 'ActivityWatch/aw-watcher-vim'
+" Record and restore sessions"
+Plug 'tpope/vim-obsession'
 
 call plug#end()
 
