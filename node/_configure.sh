@@ -17,8 +17,6 @@ MODULES=(
   "npmrc"                   # Handles different npmrc environments
   "nodemon"                 # JS hotreloading
   "parcel-bundler"
-  "create-react-app"
-  "create-electron-app"
 
   # General development
   #----------------------------------------------------------------
