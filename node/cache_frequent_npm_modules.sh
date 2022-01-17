@@ -8,22 +8,13 @@
 MODULES=(
   # Testing
   #----------------------------------------------------------------
-  "ava"
-  "avarc"
-  "chai"
   "jest"
-  "mocha"
   "sinon"
   "supertest"
-  "@testing-library/jest-dom"
-  "@testing-library/react"
-  "@testing-library/user-event"
 
   # Node.js
   #----------------------------------------------------------------
   "envvar"
-  "winston"
-  "cheerio"
   "dotenv"
 
   # Node.js / Backend
@@ -38,14 +29,7 @@ MODULES=(
 
   # Node.js / CLI
   #----------------------------------------------------------------
-  "minimist"
-  "yargs"
-  "commander"
-  "chalk"
-  "clear"
-  "clui"
-  "progress"
-  "configstore"
+  "inquirer"
 
   # Databases
   #----------------------------------------------------------------
@@ -54,6 +38,12 @@ MODULES=(
   "mongodb"
   "mongoose"
   "redis"
+
+  # Front
+  #----------------------------------------------------------------
+  "tailwindcss"
+  "postcss"
+  "autoprefixer"
 
   # React
   #----------------------------------------------------------------
@@ -64,30 +54,9 @@ MODULES=(
   "react-select"
   "react-router"
   "react-router-dom"
-  "redux"
-  "react-redux"
-  "redux-thunk"
-  "redux-form"
-  "semantic-ui-react"
-  "prop-types"
-  "react-i18next"
-  "i18next-chained-backend"
-  "i18next-xhr-backend"
-  "i18next-localstorage-backend"
-
-  # Babel
-  #----------------------------------------------------------------
-  "babel-loader"
-  "@babel/core"
-  "@babel/cli"
-  "@babel/preset-env"
-  "@babel/runtime"
-  "babel-preset-es2015"
-
-  # Electron
-  #----------------------------------------------------------------
-  "electron"
-  "electron-localshortcut"
+  "formik"
+  "react-hook-form"
+  "recharts"
 
   # Typescript
   #----------------------------------------------------------------
@@ -135,9 +104,6 @@ MODULES=(
   "request"
   "request-promise-native"
   "superagent"
-  "socket.io"
-  "socket.io-client"
-  "socket.io-redis"
   "graphql"
   "grpc"
 
@@ -163,8 +129,6 @@ MODULES=(
   "webpack"
   "webpack-dev-server"
   "ws"
-  "cra-template"
-  "cra-template-typescript"
 )
 
 mkdir /tmp/cache_nodejs_modules/
