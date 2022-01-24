@@ -29,6 +29,7 @@ PACKAGES=(
   "obs-studio"              # Screen recording / streaming
   "gimp"                    # Image editor
   "thunderbird"             # Email client
+  "flameshot"               # Screenshots
 )
 
 sudo apt-get install --yes "${PACKAGES[@]}"
