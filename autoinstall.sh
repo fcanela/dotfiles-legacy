@@ -12,6 +12,7 @@ sudo apt --yes upgrade
 #----------------------------------------------------------------
 ./nvim/_apt_source.sh
 ./docker/_apt_source.sh
+./pgadmin/_apt_source.sh
 
 # Create default home directory structure
 #----------------------------------------------------------------
@@ -29,6 +30,7 @@ nvm use node                    # Required to load stable Node.js in current she
 ./nvim/_install.sh
 ./docker/_install.sh
 ./prezto/_install.sh
+./pgadmin/_install.sh
 
 ./git/_configure.sh
 ./node/_configure.sh

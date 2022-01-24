@@ -6,6 +6,7 @@ PACKAGES=(
   "zeal"                    # Offline documentation
   "mypaint"                 # Quickly raw diagrams / interfaces / whatever
   "chromium-browser"        # Development browser (only dev extensions)
+  ""
 
   # Debugging & audit 
   #----------------------------------------------------------------
