@@ -18,6 +18,8 @@ PACKAGES=(
   "ca-certificates"
   "gnupg-agent"
   "unrar"
+  "tlp"
+  "tlp-rdw"
 
   # Development
   #----------------------------------------------------------------
