@@ -53,7 +53,7 @@ path=(
   $path
 )
 
-export GOPATH=$HOME
+export GOPATH=$HOME/go
 
 #
 # Less
